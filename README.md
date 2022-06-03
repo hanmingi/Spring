@@ -92,6 +92,7 @@ Space to plan and organize Spring Study Project
 
 ## 참조
 - 기술블로그 : [https://hanmingi.tistory.com][blog]
+- 토이프로젝트 : [설치가이드][toyproject]
 
 ## Contributors
 <table>
@@ -110,3 +111,4 @@ Space to plan and organize Spring Study Project
 
 
 [blog]: <https://hanmingi.tistory.com>
+[toyproject]: <https://hanmingi.tistory.com/category/Toy%20Project>
