@@ -10,7 +10,7 @@ Space to plan and organize Spring Study Project
 ## :date: Log
 * 2022-05-30 ~ 2022-06-05 : Project Setting (BOOK PROJECT)
 * 2022-06-06 ~ 2022-06-12 : Add Oracle Database
-* 2022-06-13 ~            : Add Data Insert Page
+* 2022-06-13 ~ 2022-06-18 : Add Data Insert Page
 
 ## Commit Header List  
 사용 예제 : [INIT] UPDATE PROJECT CODE
