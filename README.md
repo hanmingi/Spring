@@ -8,9 +8,8 @@ Space to plan and organize Spring Study Project
 - Eclipse-version : 2020.12
 
 ## :date: Log
-* 2022-05-30 ~ 2022-06-05 : Project Setting (BOOK PROJECT)
-* 2022-06-06 ~ 2022-06-12 : Add Oracle Database
-* 2022-06-13 ~ 2022-06-18 : Add Data Insert Page
+SimpleSpring : Spring with Oracle
+
 
 ## Commit Header List  
 사용 예제 : [INIT] UPDATE PROJECT CODE
