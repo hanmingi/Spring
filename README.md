@@ -7,8 +7,8 @@ Space to plan and organize Spring Study Project
 - SpringFramework-version : 5.2.5.RELEASE
 - Eclipse-version : 2020.12
 
-## :date: Log
-SimpleSpring : Spring with Oracle
+## repository detail
+- SimpleSpring : Spring with Oracle
 
 
 ## Commit Header List  
@@ -91,9 +91,8 @@ SimpleSpring : Spring with Oracle
 | ------ | ------ |
 | RENAME A TO B| A를 B로 이름 변경합니다 |
 
-## 참조
-- 기술블로그 : [https://hanmingi.tistory.com][blog]
-- 토이프로젝트 : [설치가이드][toyproject]
+## blog
+- tech blog : [https://hanmingi.tistory.com][blog]
 
 ## Contributors
 <table>
