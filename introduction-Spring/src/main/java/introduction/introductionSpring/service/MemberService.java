@@ -4,16 +4,22 @@ package introduction.introductionSpring.service;
 import java.util.List;
 import java.util.Optional;
 
+
 import introduction.introductionSpring.domain.Member;
 import introduction.introductionSpring.repository.MemberRepository;
 import introduction.introductionSpring.repository.MemoryMemberRepository;
 
 public class MemberService {
-	private final MemberRepository memberRepository = new MemoryMemberRepository();
+	
+	//private final MemberRepository memberRepository = new MemoryMemberRepository();
+	private final MemberRepository memberRepository;
+	
+	public MemberService(MemberRepository memberRepository) {
+		this.memberRepository = memberRepository;
+	}
 	/**
 	 * 회원가입
 	 */
-	
 	public Long join(Member member) {
 		//중복 회원 X
 //		Optional<Member> result = memberRepository.findByName(member.getName());
