@@ -11,13 +11,13 @@ import introduction.introductionSpring.domain.Member;
 import introduction.introductionSpring.repository.MemberRepository;
 import introduction.introductionSpring.repository.MemoryMemberRepository;
 
-@Service
+//@Service
 public class MemberService {
 	
 	//private final MemberRepository memberRepository = new MemoryMemberRepository();
 	private final MemberRepository memberRepository;
 	
-	@Autowired
+	//@Autowired
 	public MemberService(MemberRepository memberRepository) {
 		this.memberRepository = memberRepository;
 	}
