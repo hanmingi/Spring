@@ -3,6 +3,7 @@ package introduction.introductionSpring;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import introduction.introductionSpring.aop.TimeTraceAop;
 import introduction.introductionSpring.repository.MemberRepository;
 import introduction.introductionSpring.repository.MemoryMemberRepository;
 import introduction.introductionSpring.service.MemberService;
@@ -19,4 +20,9 @@ public class SpringConfig {
 	public MemberRepository memberRepository() {
 		return new MemoryMemberRepository();
 	}
+	
+//	@Bean
+//	public TimeTraceAop timeTraceAop() {
+//		return new TimeTraceAop();
+//	}
 }
