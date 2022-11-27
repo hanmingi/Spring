@@ -8,13 +8,11 @@ public class MemoryMemberRepository implements MemberRepository{
 	
 	@Override
 	public void save(Member member) {
-		// TODO Auto-generated method stub
 		store.put(member.getId(), member);
 	}
 
 	@Override
 	public Member findById(Long memberId) {
-		// TODO Auto-generated method stub
 		return store.get(memberId);
 	}
 	

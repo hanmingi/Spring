@@ -10,14 +10,12 @@ public class MemberServiceImpl implements MemberService{
 
 	@Override
 	public void join(Member member) {
-		// TODO Auto-generated method stub
 		memberRepository.save(member);
 		
 	}
 
 	@Override
 	public Member findMember(Long memberId) {
-		// TODO Auto-generated method stub
 		return memberRepository.findById(memberId);
 	}
 }
